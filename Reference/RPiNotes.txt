@@ -28,6 +28,7 @@ Additional Software
   - gitk
   - gh (GitHub CLI)
   - git-hub (Git command line interface to GitHub)
+  - meld
 
 
 Additional Group Memberships

@@ -1,1 +1,1 @@
-Wolf's work area for general Python programs.
+Wolf's work area for general Python programs and other files.

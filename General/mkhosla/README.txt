@@ -1,1 +1,1 @@
-Mahika's work area for general Python programs.
+Mahika's work area for general Python programs and other files.
