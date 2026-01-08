@@ -137,8 +137,6 @@ def take_photo():
             # do nothing to file, simply wait for stillness
             if not motion:
                 state = STILL
-
-        time.sleep(0.5)
   
 
         #CHECKS IF READINGS ARE ABOVE THRESHOLD
