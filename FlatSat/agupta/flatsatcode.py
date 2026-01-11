@@ -20,10 +20,11 @@ from adafruit_lsm6ds.lsm6dsox import LSM6DSOX as LSM6DS
 from adafruit_lis3mdl import LIS3MDL
 from git import Repo
 from picamera2 import Picamera2
+import math
 
 #VARIABLES
 THRESHOLD = 0.5      #Any desired value from the accelerometer
-REPO_PATH = "home/astrorev/Documents/AstroRev-Practice"     #Your github repo path: ex. /home/pi/FlatSatChallenge
+REPO_PATH = "/home/astrorev/Documents/AstroRev-Practice"     #Your github repo path: ex. /home/pi/FlatSatChallenge
 FOLDER_PATH = "flatsat/agupta"   #Your image folder path in your GitHub repo: ex. /Images
 EARTHG = 9.81
 
@@ -119,7 +120,7 @@ def take_photo():
             print("Saved:", filename)
 
             try:
-                git_push()
+                #git_push()
             except:
                 pass
 
